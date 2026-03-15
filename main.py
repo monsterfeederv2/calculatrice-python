@@ -31,7 +31,7 @@ def fonction_bouton():
 b1 = tk.Button(root, text = "Calculer", command = fonction_bouton)
 
 
-b2 = tk.Button(root, text = "Exit",
+b2 = tk.Button(root, text = "Fermer la fenêtre",
             command = root.destroy)
 
 l1.pack()
