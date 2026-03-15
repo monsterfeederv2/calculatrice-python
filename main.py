@@ -21,9 +21,11 @@ l2.config(font =("Courier", 14))
 l3.config(font =("Courier", 14))
 
 
+def fonction_bouton():
+    print("a")
 
 
-b1 = tk.Button(root, text = "Calculer")
+b1 = tk.Button(root, text = "Calculer", command = fonction_bouton)
 
 
 b2 = tk.Button(root, text = "Exit",
