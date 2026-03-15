@@ -22,8 +22,10 @@ l3.config(font =("Courier", 14))
 
 
 def fonction_bouton():
-    print("a")
-
+    n1 = T1.get("1.0", tk.END).replace("\n", "").replace(" ", "")
+    n2 = T3.get("1.0", tk.END).replace("\n", "").replace(" ", "")
+    ope = T2.get("1.0", tk.END).replace("\n", "").replace(" ", "")
+    print(eval(n1+ope+n2))
 
 b1 = tk.Button(root, text = "Calculer", command = fonction_bouton)
 
