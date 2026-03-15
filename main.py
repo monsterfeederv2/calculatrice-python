@@ -26,7 +26,7 @@ def fonction_bouton():
     n1 = T1.get("1.0", tk.END).replace("\n", "").replace(" ", "")
     n2 = T3.get("1.0", tk.END).replace("\n", "").replace(" ", "")
     ope = T2.get("1.0", tk.END).replace("\n", "").replace(" ", "")
-    print(eval(n1+ope+n2))
+    sd.askstring("Résultat", "Résultat", initialvalue=eval(n1+ope+n2))
 
 b1 = tk.Button(root, text = "Calculer", command = fonction_bouton)
 
