@@ -5,7 +5,7 @@ root = tk.Tk()
 
 
 # specify size of window.
-root.geometry("1000x800")
+root.geometry("400x400")
 
 T1 = tk.Text(root, height = 5, width = 52)
 T2 = tk.Text(root, height = 5, width = 52)
